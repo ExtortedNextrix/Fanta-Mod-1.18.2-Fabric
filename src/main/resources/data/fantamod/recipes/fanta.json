@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "fantamod:fanta_powder"
+    },
+    "E": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "fantamod:fanta"
+  }
+}

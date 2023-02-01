@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "fantamod",
   "version": "${version}",
 
-  "name": "Tutorial Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fanta Mod",
+  "description": "FANTA",
   "authors": [
     "nextrix"
   ],
@@ -14,16 +14,16 @@
   },
 
   "license": "MIT",
-  "icon": "assets/tutorialmod/icon.png",
+  "icon": "assets/fantamod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.nextrix.tutorialmod.TutorialMod"
+      "net.nextrix.fantamod.FantaMod"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "fantamod.mixins.json"
   ],
 
   "depends": {
