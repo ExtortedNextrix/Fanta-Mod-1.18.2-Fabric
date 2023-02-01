@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "fantamod:block/fanta_log_top",
+    "side": "fantamod:block/fanta_log"
+  }
+}

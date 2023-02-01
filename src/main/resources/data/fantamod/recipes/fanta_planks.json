@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fantamod:fanta_log"
+    }
+  ],
+  "result": {
+    "item": "fantamod:fanta_planks",
+    "count": 4
+  }
+}

@@ -2,9 +2,12 @@
 
   "itemGroup.fantamod.fanta": "Fanta",
 
-  "effect.fantamod.fanta_drink": "Fanta Effect",
-
-
   "item.fantamod.fanta": "Fanta",
-  "item.fantamod.fanta_powder": "Fanta Powder"
+  "item.fantamod.fanta_powder": "Fanta Powder",
+
+  "block.fantamod.fanta_log": "Fanta Log",
+  "block.fantamod.fanta_planks": "Fanta Planks",
+  "block.fantamod.fanta_leaves": "Fanta Leaves",
+  "block.fantamod.fanta_sapling": "Fanta Sapling"
+
 }

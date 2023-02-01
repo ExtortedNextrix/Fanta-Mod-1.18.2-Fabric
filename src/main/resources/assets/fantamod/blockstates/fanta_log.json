@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "fantamod:block/fanta_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "fantamod:block/fanta_log"
+    },
+    "axis=z": {
+      "model": "fantamod:block/fanta_log",
+      "x": 90
+    }
+  }
+}

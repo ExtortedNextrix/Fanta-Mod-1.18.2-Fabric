@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:mythril_block"
+          "name": "fantamod:fanta_planks"
         }
       ],
       "conditions": [
