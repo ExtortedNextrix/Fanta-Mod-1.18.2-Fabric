@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "aluminum",
+  "ingredient": {
+    "item": "fantamod:raw_aluminum"
+  },
+  "result": "fantamod:aluminum",
+  "experience": 0.7,
+  "cookingtime": 200
+}

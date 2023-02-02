@@ -13,6 +13,9 @@ import net.nextrix.fantamod.block.ModBlocks;
 import java.util.List;
 
 public class ModConfiguredFeatures {
+
+
+    //trees
     public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> FANTA_TREE =
             ConfiguredFeatures.register("fanta_tree", Feature.TREE, new TreeFeatureConfig.Builder(
                     BlockStateProvider.of(ModBlocks.FANTA_LOG),
@@ -29,6 +32,17 @@ public class ModConfiguredFeatures {
             ConfiguredFeatures.register("fanta_spawn", Feature.RANDOM_SELECTOR,
                     new RandomFeatureConfig(List.of(new RandomFeatureEntry(FANTA_CHECKED, 0.5f)),
                         FANTA_CHECKED));
+
+    //ore
+    public static final List<OreFeatureConfig.Target> OVERWORLD_ALUMINUM_ORES = List.of(
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
+                    ModBlocks.ALUMINUM_ORE.getDefaultState()));
+
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> ALUMINUM_ORE =
+            ConfiguredFeatures.register("aluminum_ore", Feature.ORE,
+                    new OreFeatureConfig(OVERWORLD_ALUMINUM_ORES, 12));
+
+
 
     public static void registerConfiguredFeatures() {
         System.out.println("Registering ModConfiguredFeatures for " + FantaMod.MOD_ID);

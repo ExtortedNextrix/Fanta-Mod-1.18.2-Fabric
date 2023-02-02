@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.minecraft.recipe.SmeltingRecipe;
 import net.nextrix.fantamod.FantaMod;
 import net.nextrix.fantamod.block.ModBlocks;
 import net.nextrix.fantamod.item.ModItems;

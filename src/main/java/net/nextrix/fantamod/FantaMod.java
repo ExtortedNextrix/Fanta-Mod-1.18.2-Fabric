@@ -7,6 +7,7 @@ import net.nextrix.fantamod.item.ModItemGroup;
 import net.nextrix.fantamod.item.ModItems;
 import net.nextrix.fantamod.util.ModRegistries;
 import net.nextrix.fantamod.world.feature.ModConfiguredFeatures;
+import net.nextrix.fantamod.world.gen.ModOreGeneration;
 import net.nextrix.fantamod.world.gen.ModWorldGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +19,7 @@ public class FantaMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 
 		ModConfiguredFeatures.registerConfiguredFeatures();
 

@@ -12,6 +12,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.FANTA_GROUP).maxCount(16).food(ModFoodComponents.FANTA)));
     public static final Item FANTA_POWDER = registerItem("fanta_powder",
             new Item(new FabricItemSettings().group(ModItemGroup.FANTA_GROUP)));
+    public static final Item RAW_ALUMINUM = registerItem("raw_aluminum",
+            new Item(new FabricItemSettings().group(ModItemGroup.METAL_GROUP)));
+    public static final Item ALUMINUM = registerItem("aluminum",
+            new Item(new FabricItemSettings().group(ModItemGroup.METAL_GROUP)));
 
 
     private static Item registerItem(String name, Item item) {

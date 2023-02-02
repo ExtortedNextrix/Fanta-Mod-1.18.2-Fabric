@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "aluminum",
+  "ingredient": {
+    "item": "fantamod:aluminum_ore"
+  },
+  "result": "fantamod:aluminum",
+  "experience": 0.7,
+  "cookingtime": 100
+}

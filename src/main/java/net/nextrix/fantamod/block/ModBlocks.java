@@ -25,6 +25,11 @@ public class ModBlocks {
             new ModSaplingBlock(new FantaSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING).nonOpaque()), ModItemGroup.FANTA_GROUP);
 
+    public static final Block ALUMINUM_ORE = registerBlock("aluminum_ore",
+            new OreBlock(FabricBlockSettings.copy(Blocks.IRON_ORE).requiresTool().strength(6.0f)), ModItemGroup.METAL_GROUP);
+    public static final Block ALUMINUM_BLOCK = registerBlock("aluminum_block",
+            new Block(FabricBlockSettings.copy(Blocks.IRON_BLOCK).requiresTool().strength(4.0f)), ModItemGroup.METAL_GROUP);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
